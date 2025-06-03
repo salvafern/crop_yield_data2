@@ -1,0 +1,93 @@
+{
+  "resources": [
+    {
+      "name": "crop_yield_data",
+      "type": "table",
+      "title": "",
+      "description": "",
+      "licenses": [],
+      "path": "my_test_project\\crop_yield_data.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "",
+      "fields": 0,
+      "rows": 0,
+      "dialect": {
+        "csv": {
+          "delimiter": ";"
+        }
+      },
+      "schema": {
+        "title": "",
+        "description": "",
+        "fields": [
+          {
+            "name": "farm_id",
+            "type": "string",
+            "title": "Id of the farm",
+            "description": "",
+            "constraints": {
+              "required": false
+            },
+            "rdfType": "false"
+          },
+          {
+            "name": "crop_species",
+            "type": "string",
+            "title": "",
+            "description": "",
+            "constraints": {
+              "required": false
+            },
+            "rdfType": ""
+          },
+          {
+            "name": "yield_kg_per_ha",
+            "type": "string",
+            "title": "",
+            "description": "",
+            "constraints": {
+              "required": false
+            },
+            "rdfType": ""
+          },
+          {
+            "name": "sowing_date",
+            "type": "string",
+            "title": "",
+            "description": "",
+            "constraints": {
+              "required": false
+            },
+            "rdfType": ""
+          },
+          {
+            "name": "harvested",
+            "type": "string",
+            "title": "",
+            "description": "",
+            "constraints": {
+              "required": false
+            },
+            "rdfType": ""
+          },
+          {
+            "name": "soil_ph",
+            "type": "number",
+            "title": "",
+            "description": "",
+            "constraints": {
+              "required": true
+            },
+            "rdfType": ""
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}
