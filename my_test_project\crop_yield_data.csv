@@ -1,0 +1,6 @@
+farm_id;crop_species;yield_kg_per_ha;sowing_date;harvested;soil_ph
+F001;Zea mays;6800;2023-03-15;yes;6.5
+F002;Oryza sativa;;2023-04-01;yes;5.8
+F003;Triticum aestivum;7200;2023-03-10;no;acidic
+F004;Glycine max;wrong_value;2023-03-20;yes;7.2
+F005;Solanum tuberosum;5600;15/03/2023;yes;6.9
